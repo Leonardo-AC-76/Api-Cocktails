@@ -1,0 +1,148 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+#contenedor{
+    border: 2px solid black;
+    margin-top: 5px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 5px;
+    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+}
+
+#enviar{
+    margin: 15px;
+}
+
+#contenedor2{
+    border: 2px solid black;
+    border-radius: 5px;
+    margin-bottom: 5px;
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.contendorInstrucciones{
+  background-color: bisque;
+  margin-top: 15px;
+  padding: 15px;
+  border: 2px solid black;
+  border-radius: 5px;
+  width: 100%;
+  height: 30%;
+}
+
+.contenedorFotos{
+  border: 2px solid black;
+  border-radius: 5px;
+  margin-bottom: 15px;
+  width: 100%;
+  height: 70%;
+  display: flex;
+  gap: 30px;
+}
+
+.loader {
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  display: block;
+  margin:15px auto;
+  position: relative;
+  color: black;
+  box-sizing: border-box;
+  animation: animloader 2s linear infinite;
+}
+
+h3{
+  text-align: center;
+  color: blue;
+}
+
+@keyframes animloader {
+  0% {
+    box-shadow: 14px 0 0 -2px,  38px 0 0 -2px,  -14px 0 0 -2px,  -38px 0 0 -2px;
+  }
+  25% {
+    box-shadow: 14px 0 0 -2px,  38px 0 0 -2px,  -14px 0 0 -2px,  -38px 0 0 2px;
+  }
+  50% {
+    box-shadow: 14px 0 0 -2px,  38px 0 0 -2px,  -14px 0 0 2px,  -38px 0 0 -2px;
+  }
+  75% {
+    box-shadow: 14px 0 0 2px,  38px 0 0 -2px,  -14px 0 0 -2px,  -38px 0 0 -2px;
+  }
+  100% {
+    box-shadow: 14px 0 0 -2px,  38px 0 0 2px,  -14px 0 0 -2px,  -38px 0 0 -2px;
+  }
+}
+    
+.loaderOculto{
+  display: none;
+}
+
+.espera{
+  margin-top: 250px;
+}
+
+.esperarFoto{
+  margin-top: 150px;
+}
+
+#divFoto{
+  margin: 15px;
+  border: 1px solid black;
+  border-radius: 5px;
+  width: 250px;
+  height: 200px;
+}
+
+#foto{
+  border: 2px solid black;
+  width: 150px;
+  height: 150px;
+  margin: 35px;
+}
+
+#spanFoto{
+  margin-top: 150px;
+}
+
+#divFotosIngredientes{
+  background-color: bisque;
+  border: 2px solid black;
+  border-radius: 5px;
+  width: 60%;
+  margin: 15px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-around;
+  gap: 30px;
+}
+
+.ingrediente{
+  
+  
+  width: 100px;
+  height: 99px;
+  margin: 0 15px;
+  border-radius: 5px;
+  
+}
+
+.spanFotoIng{
+  margin-top: 50px;
+}
+
+img{
+  width: 250px;
+  height: 199px;
+  border-radius: 5px;
+  box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+}
